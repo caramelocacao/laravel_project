@@ -1,0 +1,310 @@
+body{
+    margin: 0px; 
+    padding: 0px;
+    
+}
+.espace{
+    display: flex; 
+    justify-content: space-between;
+}
+.espace a input{
+    width: 100%; 
+    height: 20px;
+}
+
+/* CSS pour la page produit */
+.page_produit{
+    justify-content: center;
+    background-image: url("../images/page-produit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    height: 100%;
+    flex-direction: column; 
+    font-size: 20px ; 
+    color : rgba(255, 255, 255, 0.055)
+}
+
+.contenair_produit2{
+    display: flex;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+.produit{
+    display: flex;
+    color: rgb(247, 247, 247);
+    font-family: cursive;
+    width: 90%;
+    height: 50%;
+    margin: 2%;
+    object-fit: contain;
+    flex-direction: row; 
+    border-radius: 20px;
+    background-color: rgba(175, 0, 0, 0.699);
+}
+.produit2{
+    display: flex;
+    color: rgb(247, 247, 247);
+    font-family: cursive;
+    width: 95%;
+    height: 85%;
+    margin: 2%;
+    object-fit: contain;
+    flex-direction: row; 
+    border-radius: 20px;
+    background-color: rgba(175, 0, 0, 0.699);
+}
+.column{
+    display: flex; 
+    flex-direction :column; 
+    flex-grow: 2;
+    align-items: center; 
+}
+.column input {
+    width: 100% ;
+    margin-bottom: 20px;  
+    flex-grow: 2;
+}
+.column input[type=submit]{
+    height:50px; 
+    color: #fff; 
+    font-size: auto; 
+    background:rgba(0, 68, 255, 0.726); 
+    cursor: pointor; 
+    border-radius: 20px; 
+    border: none; 
+    outline: none; 
+    margin-top: 5%;
+}
+.placement 
+#bouton{
+    display: flex; 
+    justify-content: center;
+
+}
+.column input[type=submit]:hover {
+    background-color: rgba(59, 253, 0, 0.596);
+    color: black;
+}
+.column input {
+    align-items: center; 
+    width: 40% ;
+    margin-bottom: 20px;  
+}
+/* CSS pour la page catalogue */
+.page_catalogue{
+    justify-content: center;
+    background-image: url("../images/page-catalogue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    height: 100%;
+    flex-direction: column; 
+}
+
+.contenair_produit{
+    border-radius:10px;
+    display: flex;
+    flex-grow: 2;
+    flex-wrap: wrap;
+}
+.flex_catalogue{
+    display: flex;
+    color: black;
+    font-family: cursive;
+    width: 20%;
+    height: 30%;
+    margin: 2%;
+    object-fit: contain;
+    flex-direction: column; 
+}
+.extension{ /*extension du catalogue*/
+    display:flex; 
+    flex-direction: row; 
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.767);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius:0%; 
+    border-bottom-right-radius:20px;
+    padding: 1%;
+}
+.image_produit{
+    margin: 1px;
+    display: flex; 
+    flex: 1;
+    flex-basis:0px;
+    margin:0; 
+    height:100%; 
+    width: 100%; 
+}
+.image{
+    border-top-right-radius: 0%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:0%; 
+    border-bottom-right-radius:0%;
+    height:100%; 
+    width: 100%;  
+    margin-bottom: 1%;  
+}
+.flex-box-img{
+    display: flex; 
+    margin:10px;
+    align-items: center; 
+}
+
+.flex_catalogue input[type=submit]{
+    height:100%; 
+    color: #fff; 
+    font-size: auto; 
+    background:rgba(0, 68, 255, 0.726); 
+    cursor: pointor; 
+    border-radius: 20px; 
+    border: none; 
+    outline: none; 
+    margin-top: 5%;
+}
+.flex_catalogue input[type=submit]:hover {
+    background-color: rgba(59, 253, 0, 0.596);
+    color: black;
+}
+.flex_catalogue input {
+    width: 40% ;
+    margin-bottom: 20px;  
+}
+/* CSS pour connexion/fchier.html*/
+.page_connexion{
+    justify-content: center;
+    background-image: url("../images/view-of-mout-fuji-from-red-pagoda-tkyo-japan-uhd-4k-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    height: 100%;
+    flex-direction: column; 
+    flex-grow:2;
+} 
+.contenair_login{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-grow: 2;
+}
+.flex-box{
+    display: flex;
+    padding: 0; 
+    align-items:center; 
+}
+.flex{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.formulaire {
+    border-radius: 50% 20% / 10% 40%;
+    background: rgba(221, 17, 17, 0.459);   
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    color: white; 
+    padding: 4%; 
+    display: flex; 
+    flex-direction: column;
+    width: 25%;
+    height: auto;
+    justify-content: center; 
+    align-items: center; 
+}    
+ 
+.formulaire input {
+    width: 100% ;
+    margin-bottom: 20px;  
+}
+.formulaire input[type=text],
+.formulaire input[type=email], 
+.formulaire input[type=password]
+{
+    border: none; 
+    border-bottom: 1px  solid #fff; 
+    background: transparent; 
+    outline: none; 
+    height: 35 px; 
+    color: #fff; 
+    font-size: auto; 
+}
+
+.formulaire input[type=submit]{
+    height:30px; 
+    color: #fff; 
+    font-size: auto; 
+    background:rgba(255, 255, 255, 0.582); 
+    cursor: pointor; 
+    border-radius: 20px; 
+    border: none; 
+    outline: none; 
+    margin-top: 5%;
+}
+.formulaire input[type=submit]:hover {
+    background-color: rgba(59, 253, 0, 0.596);
+    color: black;
+  }
+
+  /* CSS du Footer */
+
+footer {
+    margin: 0; 
+    display: flex; 
+    justify-content: space-evenly; 
+    background: rgba(0, 0, 0, 0.699);
+    position: auto; 
+    bottom:0;
+    width:100%;
+    padding-top:2%;    
+    height:40px;   
+
+}
+footer img {
+    height: 25px;
+    width: 25px;
+}
+
+
+/* CSS du header */
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.699);
+    position :auto; 
+    margin: 0; 
+    padding: 1%;
+}
+header h2 {
+    font-size: 38px; 
+    color: white; 
+    font-family: cursive;
+    margin: 0px;
+}
+header p{
+    font-size: 30px; 
+    color: white; 
+    font-family: sans-serif;
+}
+h2 {
+    text-align: center; 
+}
+a {
+    outline: none; 
+    /*text-decoration: none; */
+    color : white ; 
+    padding: 2px 1px 0;
+}
